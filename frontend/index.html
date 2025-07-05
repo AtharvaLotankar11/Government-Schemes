@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Government Schemes Finder</title>
+  
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Main Heading -->
+    <h1>Government Schemes Finder</h1>
+
+    <!-- Link to another page with all schemes listed -->
+    <a href="all-schemes.html" class="view-all-link">🔗 View All Schemes</a>
+
+    <p class="subtitle">Discover welfare programs and benefits you're eligible for</p>
+
+    <!-- Main Form for user input -->
+    <form class="form-card">
+      
+      <!-- Basic Info -->
+      <div class="row">
+        <label>Full Name 
+          <input type="text" name="name" required>
+        </label>
+        <label>Age 
+          <input type="number" name="age" required>
+        </label>
+      </div>
+
+      <!-- Location and Gender -->
+      <div class="row">
+        <label>State 
+          <!-- Dropdown list of Indian states and UTs -->
+          <select name="state" required>
+            <option value="">-- Select State --</option>
+            <option>All India</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Tripura</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+            <option>Andaman and Nicobar Islands</option>
+            <option>Chandigarh</option>
+            <option>Dadra and Nagar Haveli and Daman and Diu</option>
+            <option>Delhi</option>
+            <option>Lakshadweep</option>
+            <option>Puducherry</option>
+            <option>Ladakh</option>
+            <option>Jammu and Kashmir</option>
+          </select>
+        </label>
+
+        <label>Gender 
+          <select name="gender" required>
+            <option>Female</option>
+            <option>Other</option>
+          </select>
+        </label>
+      </div>
+
+      <!-- Income and Caste Category -->
+      <div class="row">
+        <label>Annual Income (₹)
+          <select name="income">
+            <option>Below ₹1 Lakh</option>
+            <option>₹1-3 Lakhs</option>
+            <option selected>₹3-5 Lakhs</option>
+            <option>Above ₹5 Lakhs</option>
+          </select>
+        </label>
+
+        <label>Social Category
+          <select name="category">
+            <option>General</option>
+            <option>All</option>
+            <option selected>EWS (Economically Weaker Section)</option>
+            <option>OBC</option>
+            <option>SC/ST</option>
+          </select>
+        </label>
+      </div>
+
+      <!-- Education and Employment -->
+      <div class="row">
+        <label>Education Level
+          <select name="education">
+            <option>10th Pass</option>
+            <option selected>12th Pass</option>
+            <option>Graduate</option>
+            <option>Post Graduate</option>
+          </select>
+        </label>
+
+        <label>Employment Status
+          <select name="employment">
+            <option>Unemployed</option>
+            <option selected>Student</option>
+            <option>Working</option>
+          </select>
+        </label>
+      </div>
+
+      <!-- Special conditions (multiple checkboxes allowed) -->
+      <fieldset>
+        <legend>Special Circumstances (Check all that apply)</legend>
+        <label><input type="checkbox" name="special" value="Widow"> Widow</label>
+        <label><input type="checkbox" name="special" value="Disabled"> Disabled</label>
+        <label><input type="checkbox" name="special" value="Single Mother"> Single Mother</label>
+        <label><input type="checkbox" name="special" value="SC/ST"> SC/ST</label>
+        <label><input type="checkbox" name="special" value="Minority"> Minority</label>
+      </fieldset>
+
+      <!-- Submit button -->
+      <button type="submit">Find Schemes</button>
+    </form>
+
+    <!-- Placeholder where matched schemes will appear -->
+    <div id="scheme-results"></div>
+  </div>
+
+  <!-- Script file that handles form processing and logic -->
+  <script src="script.js"></script>
+</body>
+</html>

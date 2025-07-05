@@ -1,0 +1,184 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #642c9f, #6391e0);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 750px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+.emoji {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #666;
+  font-size: 14px;
+}
+
+.form-card label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 18px;
+}
+
+.row label {
+  flex: 1;
+  margin-right: 24px; /* Adjust as needed */
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+fieldset legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+fieldset label {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  margin: 6px 0;
+  position: relative;
+}
+
+fieldset label input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+fieldset label {
+  padding-left: 25px; /* space for checkbox to appear without text overlap */
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0f367d;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
+#scheme-results {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.scheme-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.scheme-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px 6px #b3d4fc;
+ 
+}
+
+.scheme-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto 10px auto;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.scheme-card-content {
+  padding: 15px;
+}
+
+.scheme-card-content h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #2e7d32;
+}
+
+.scheme-card-content p {
+  font-size: 14px;
+  color: #555;
+  
+}
+
+.apply-btn {
+  display: block;
+  margin: 16px auto 0 auto; 
+  padding: 8px 16px;
+  background-color: #2575fc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  text-align: center;
+}
+
+.apply-btn:hover {
+  background-color: #1a5edb;
+}
+

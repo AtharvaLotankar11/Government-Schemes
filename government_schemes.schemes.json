@@ -1,0 +1,378 @@
+[{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728513"
+  },
+  "name": "Pradhan Mantri Matru Vandhana Yojna",
+  "minAge": 18,
+  "maxAge": 45,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 50000,
+  "description": "Cash incentive of ₹5,000 in 3 installments for first child to improve maternal health.",
+  "imageUrl": "https://example.com/images/pm_matr_vandana.jpg",
+  "applyUrl": "https://pmmvy.wcd.gov.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728515"
+  },
+  "name": "One Stop Centre (Sakhi)",
+  "minAge": 18,
+  "maxAge": 60,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 1000000,
+  "description": "Integrated support (medical, legal, police, counselling) for violence survivors.",
+  "imageUrl": "https://example.com/images/onestopcentre.jpg",
+  "applyUrl": "https://socialwelfare.vikaspedia.in/viewcontent/social-welfare/women-and-child-development/women-development-1/one-stop-centre-scheme?lgn=en"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728516"
+  },
+  "name": "Kanyashree Prakalpa",
+  "minAge": 13,
+  "maxAge": 18,
+  "location": "West Bengal",
+  "caste": "All",
+  "incomeMax": 150000,
+  "description": "Scholarship ₹1,000/yr + ₹25,000 grant for unmarried girls.",
+  "imageUrl": "https://example.com/images/kanyashree.jpg",
+  "applyUrl": "https://www.wbkanyashree.gov.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728517"
+  },
+  "name": "National Social Assistance Scheme (NSAP)",
+  "minAge": 60,
+  "maxAge": 99,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 50000,
+  "description": "Pensions for elderly, widows & disabled via central assistance.",
+  "imageUrl": "https://example.com/images/nsap.jpg",
+  "applyUrl": "https://nsap.nic.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728518"
+  },
+  "name": "Janani Suraksha Yojana",
+  "minAge": 18,
+  "maxAge": 45,
+  "location": "All India",
+  "caste": "BPL",
+  "incomeMax": 30000,
+  "description": "Cash assistance to pregnant women for safe institutional delivery.",
+  "imageUrl": "https://example.com/images/jsy.jpg",
+  "applyUrl": "https://nvbdcp.gov.in/index1.php?lang=1&level=0&sublinkid=1007&lid=365"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728519"
+  },
+  "name": "Mahila Shakti Kendra",
+  "minAge": 18,
+  "maxAge": 60,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 1000000,
+  "description": "Digital literacy, vocational training & outreach via volunteers.",
+  "imageUrl": "https://example.com/images/msk.jpg",
+  "applyUrl": "https://socialwelfare.vikaspedia.in/viewcontent/social-welfare/women-and-child-development/women-development-1/pradhan-mantri-mahila-shakti-kendra?lgn=en"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272851a"
+  },
+  "name": "Aapki Beti Hamari Beti",
+  "minAge": 0,
+  "maxAge": 18,
+  "location": "Haryana",
+  "caste": "SC/BPL or All",
+  "incomeMax": 50000,
+  "description": "One‑time ₹21,000 LIC investment for girl child at birth.",
+  "imageUrl": "https://example.com/images/abhb.jpg",
+  "applyUrl": "https://wcdhry.gov.in/schemes-for-children/abhb/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272851b"
+  },
+  "name": "Stand-Up India",
+  "minAge": 21,
+  "maxAge": 60,
+  "location": "All India",
+  "caste": "SC/ST or Women",
+  "incomeMax": 2000000,
+  "description": "Bank loans ₹10 L–₹1 Cr for SC/ST & women entrepreneurs.",
+  "imageUrl": "https://example.com/images/standupindia.jpg",
+  "applyUrl": "https://www.standupmitra.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272851c"
+  },
+  "name": "Prime Minister’s Employment Generation Programme (PMEGP)",
+  "minAge": 18,
+  "maxAge": 65,
+  "location": "All India",
+  "caste": "All (special support to women)",
+  "incomeMax": 500000,
+  "description": "Provides bank loans with subsidy to women entrepreneurs under Khadi & Village Industries Commission.",
+  "imageUrl": "https://example.com/images/pmegp.jpg",
+  "applyUrl": " https://msme.gov.in/1-prime-ministers-employment-generation-programme-pmegp"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272851d"
+  },
+  "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+  "minAge": 21,
+  "maxAge": 65,
+  "location": "Maharashtra",
+  "caste": "All",
+  "incomeMax": 200000,
+  "description": "Provides ₹1,500/month, three free LPG cylinders, and skill‑development & healthcare support.",
+  "imageUrl": "https://example.com/images/mahi_ladki.jpg",
+  "applyUrl": "https://pune.gov.in/scheme/mukhyamantri-majhi-ladki-bahin-yojana/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272851e"
+  },
+  "name": "National Creche Scheme",
+  "minAge": 18,
+  "maxAge": 60,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 500000,
+  "description": "Supports establishment of creches for children (6 months–6 years) of working mothers in organized and unorganized sectors.",
+  "imageUrl": "https://example.com/images/national_creche.jpg",
+  "applyUrl": " https://www.india.gov.in/national-creche-scheme-children-working-mothers"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272851f"
+  },
+  "name": "Working Women’s Hostel Scheme",
+  "minAge": 18,
+  "maxAge": 60,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 50000,
+  "description": "Provides safe and affordable accommodation for single working women and those in vocational training or employment.",
+  "imageUrl": "https://example.com/images/working_women_hostel.jpg",
+  "applyUrl": " https://wcdhry.gov.in/schemes-for-women/working-women-hostel/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728520"
+  },
+  "name": "Janani Shishu Suraksha Karyakram (JSSK)",
+  "minAge": 18,
+  "maxAge": 45,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 1000000,
+  "description": "Entitles pregnant women and infants to free delivery, drugs, diagnostics, diet, transport and blood in public health institutions.",
+  "imageUrl": "https://example.com/images/jssk.jpg",
+  "applyUrl": " https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=842&lid=308"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728521"
+  },
+  "name": "Deendayal Disabled Rehabilitation Scheme",
+  "minAge": 0,
+  "maxAge": 99,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 1000000,
+  "description": "Assist voluntary orgs to rehab persons with disabilities.",
+  "imageUrl": "https://example.com/images/ddrs.jpg",
+  "applyUrl": "https://disabilities.gov.in/ddrs"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728522"
+  },
+  "name": "Mahila Samridhi Yojana (MSY)",
+  "minAge": 18,
+  "maxAge": 55,
+  "location": "All India",
+  "caste": "SC/ST/Backward Classes",
+  "incomeMax": 98000,
+  "description": "Provides micro-finance to women entrepreneurs from disadvantaged backgrounds through SHGs.",
+  "imageUrl": "https://example.com/images/msy.jpg",
+  "applyUrl": "https://services.india.gov.in/service/detail/apply-for-mahila-samridhi-yojanafor-self-employment-income-generating-schemes-only-for-female-beneficiaries-haryana-1"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728523"
+  },
+  "name": "Pradhan Mantri Ujjwala Yojana",
+  "minAge": 18,
+  "maxAge": 65,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 100000,
+  "description": "Provides free LPG connection to women from Below Poverty Line (BPL) households to reduce health hazards from unclean cooking fuels.",
+  "imageUrl": "https://example.com/images/pm_ujjwala.jpg",
+  "applyUrl": "https://pmuy.gov.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728524"
+  },
+  "name": "Magalir Vidiyal Payanam",
+  "minAge": 18,
+  "maxAge": 99,
+  "location": "Tamil Nadu",
+  "caste": "All",
+  "incomeMax": 1000000,
+  "description": "Free bus travel scheme for women, differently‑abled and transgender passengers—saves approx. ₹888 per month.",
+  "imageUrl": "https://example.com/images/magalir_vidiyal.jpg",
+  "applyUrl": " https://spc.tn.gov.in/ta/%E0%AE%B5%E0%AE%BF%E0%AE%9F%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D-%E0%AE%AA%E0%AE%AF%E0%AE%A3%E0%AE%A4%E0%AF%8D-%E0%AE%A4%E0%AE%BF%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%AE%E0%AF%8D/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728525"
+  },
+  "name": "Mahila Kisan Sashaktikaran Pariyojana",
+  "minAge": 18,
+  "maxAge": 60,
+  "location": "All India/Rural",
+  "caste": "All",
+  "incomeMax": 150000,
+  "description": "Skill & livelihood support for women farmers.",
+  "imageUrl": "https://example.com/images/mksp.jpg",
+  "applyUrl": "https://wcd.nic.in/mksp"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728526"
+  },
+  "name": "Integrated Child Protection Scheme (ICPS)",
+  "minAge": 0,
+  "maxAge": 18,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 1000000,
+  "description": "Protection & rehabilitation for children in need of care & those in conflict with law.",
+  "imageUrl": "https://example.com/images/icps.jpg",
+  "applyUrl": "https://wcd.nic.in/icps"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728527"
+  },
+  "name": "Beti Bachao Beti Padhao",
+  "minAge": 0,
+  "maxAge": 99,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 200000,
+  "description": "Campaign to improve sex ratio & empower girl child through advocacy & support.",
+  "imageUrl": "https://example.com/images/bbbp.jpg",
+  "applyUrl": "https://betibachao.gov.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728528"
+  },
+  "name": "Rajiv Gandhi Scheme for Empowerment of Adolescent Girls (Sabla)",
+  "minAge": 11,
+  "maxAge": 18,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 100000,
+  "description": "Nutrition, health and educational support to adolescent girls.",
+  "imageUrl": "https://example.com/images/sabla.jpg",
+  "applyUrl": "https://wcd.nic.in/sabla"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa2728529"
+  },
+  "name": "Thayi Bhagya Scheme",
+  "minAge": 18,
+  "maxAge": 45,
+  "location": "Karnataka (Gulbarga, Bidar, Raichur, Koppal, Bijapur, Bagalkot, Chamarajanagar)",
+  "caste": "All (BPL only)",
+  "incomeMax": "BPL Card Holder",
+  "description": "Provides cashless maternal healthcare services including free delivery (normal or complicated) for women from BPL families, limited to the first two live deliveries. Treatment is provided in registered private hospitals under a public-private partnership model.",
+  "imageUrl": "https://example.com/images/tbs.jpg",
+  "applyUrl": "https://www.jaagrukbharat.com/thayi-bhagya-scheme-1509839"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272852a"
+  },
+  "name": "Kishori Shakti Yojana",
+  "minAge": 11,
+  "maxAge": 18,
+  "location": "Odisha",
+  "caste": "All",
+  "incomeMax": 100000,
+  "description": "Empower adolescent girls with education, health & vocational support.",
+  "imageUrl": "https://example.com/images/kishori.jpg",
+  "applyUrl": "https://wcd.nic.in/kishori"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272852b"
+  },
+  "name": "Udyogini Scheme",
+  "minAge": 18,
+  "maxAge": 55,
+  "location": "All India",
+  "caste": "SC/ST/Backward Classes",
+  "incomeMax": 150000,
+  "description": "Offers financial assistance and subsidies to women entrepreneurs from economically weaker backgrounds.",
+  "imageUrl": "https://example.com/images/udyogini.jpg",
+  "applyUrl": "https://www.myscheme.gov.in/schemes/us"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272852c"
+  },
+  "name": "SWADHAR Greh",
+  "minAge": 18,
+  "maxAge": 99,
+  "location": "All India",
+  "caste": "All",
+  "incomeMax": 200000,
+  "description": "Shelter, legal & social support for marginalized women.",
+  "imageUrl": "https://example.com/images/swadha.jpg",
+  "applyUrl": "https://wcd.nic.in/swdhr"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272852d"
+  },
+  "name": "Subhadra Yojana",
+  "minAge": 21,
+  "maxAge": 60,
+  "location": "Odisha",
+  "caste": "All",
+  "incomeMax": 100000,
+  "description": "₹10,000/year for 5 years via Aadhaar-linked DBT for women.",
+  "imageUrl": "https://example.com/images/subhadra.jpg",
+  "applyUrl": "https://subhadra.odisha.gov.in/"
+},
+{
+  "_id": {
+    "$oid": "685b0894ba8babbfa272852e"
+  },
+  "name": "Khushi Scheme",
+  "minAge": 11,
+  "maxAge": 18,
+  "location": "Odisha",
+  "caste": "All",
+  "incomeMax": "Not Applicable",
+  "description": "Provides free sanitary napkins to girls in government and government-aided schools from Class 6 to 12 to promote menstrual hygiene and offers subsidized napkins to rural women through ASHA workers.",
+  "imageUrl": "https://example.com/images/khushi.jpg",
+  "applyUrl": "https://www.myscheme.gov.in/schemes/khushi"
+}]
